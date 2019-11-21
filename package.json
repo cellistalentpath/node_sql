@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "This project shows how to connect a NodeJs server to both a MySQL database as well as a MongoDB database.\r ## Commands\r To start, run `node server.js`",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cellistalentpath/node_sql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cellistalentpath/node_sql/issues"
+  },
+  "homepage": "https://github.com/cellistalentpath/node_sql#readme",
+  "dependencies": {
+    "mongodb": "^3.3.4",
+    "pg": "^7.14.0"
+  }
+}
